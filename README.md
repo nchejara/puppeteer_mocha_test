@@ -1,2 +1,18 @@
 # puppeteer_mocha_test
-Automate UI using Puppeteer and Mocha
+Automate UI test using Puppeteer and Mocha
+
+
+
+## Instlal module dependencies 
+
+``` 
+    $npm install
+```
+
+## Run Test
+
+```
+    $npm test
+```
+
+

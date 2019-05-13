@@ -1,0 +1,31 @@
+{
+  "name": "puppeteer_mocha_test",
+  "version": "1.0.0",
+  "description": "Automate UI using Puppeteer and Mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests\\homePage.js --reporter mochawesome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nchejara/puppeteer_mocha_test.git"
+  },
+  "keywords": [
+    "Puppeteer",
+    "Mocha",
+    "UI",
+    "automation"
+  ],
+  "author": "Naren Chejara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nchejara/puppeteer_mocha_test/issues"
+  },
+  "homepage": "https://github.com/nchejara/puppeteer_mocha_test#readme",
+  "dependencies": {
+    "mocha": "^6.1.4",
+    "mochawesome": "^3.1.2",
+    "puppeteer": "^1.15.0",
+    "should": "^13.2.3"
+  }
+}
